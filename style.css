@@ -1,0 +1,273 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+}
+
+.wrapper1 {
+    border: 1px;
+    border-bottom: 10px solid #303030;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.459)), url(https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/fe0d3631-4584-47e4-9cd7-ed68ba375830/NG-en-20221114-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-repeat: no-repeat;
+    z-index: -1;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+
+#Signup {
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+
+}
+.netflix{
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0px 20px 20px 20px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.Getstarted {
+    border: 1px solid black;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+}
+
+.Unlimited {
+    font-weight: 500px;
+    font-size: 55px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.limited {
+    font-weight: 500px;
+    font-size: 45px;
+}
+
+.emailfield {
+    display: flex;
+    color: white;
+    margin-bottom: 130px;
+    width: auto;
+}
+
+.emailtext1 {
+    width: 65%;
+    padding: 17px 15px;
+}
+
+.emailtext {
+    width: 55%;
+    padding: 17px 15px;
+}
+
+.Getstarted {
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.Text1 {
+    border: 1px;
+    text-align: center;
+}
+
+.firstcard,
+.ready {
+    margin: auto;
+    padding: 0;
+    width: max-content;
+}
+
+video {
+    width: 220;
+    height: 200px;
+}
+
+.wrapper2 {
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid #303030;
+}
+
+.page2,
+.page3,
+.page5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+    font-size: 30px;
+    align-items: center;
+}
+
+summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 710px;
+}
+
+.summary1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 580px;
+}
+
+.summary2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 670px;
+}
+
+.summary3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 700px;
+}
+
+.summary4 {
+    display: flex;
+    justify-content: space-between;
+    gap: 575px;
+}
+
+.summary5 {
+    display: flex;
+    justify-content: space-between;
+    gap: 628px;
+}
+
+.heading2 {
+    font-size: 45px;
+}
+
+.heading3 {
+    font-size: 50px;
+}
+.wrapper3 {
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid #303030;
+}
+.wrapper4{
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid #303030;
+}
+.wrapper5 {
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid #303030;
+}
+.wrapper6 {
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid #303030;
+}
+.wrapper7 {
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid #303030;
+}
+.page4 {
+    padding: 60px 100px;
+    font-size: 30px;
+}
+
+.ptag {
+    background-color: #303030;
+    color: white;
+    border: 1px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.heading6 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 60px;
+}
+
+.emailfield2 {
+    display: flex;
+    color: white;
+    margin-left: 230px;
+    margin-bottom: 100px;
+}
+
+.page6 {
+    margin-bottom: 70px;
+}
+
+.ready {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+ul {
+    color: #303030;
+}
+
+li {
+    list-style: none;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    padding-left: 200px;
+    padding-bottom: 40px;
+}
+
+.heading7 {
+    padding-left: 235px;
+    color: #303030;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+a {
+    color: #807b7b;
+    text-decoration: none;
+}
+
+.tvcontainer{
+    position: relative;
+    padding-left: 50px;
+}
+
+.TV{
+    width: 82%;
+    top: 0;
+    left: 0;
+   
+}
+
+video{
+    position: absolute;
+    top: 76px;
+    left: 115px;
+    
+}
+
+
